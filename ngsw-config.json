@@ -1,0 +1,13 @@
+{
+    "dataGroups": [{
+        "name": "canteen",
+        "urls": [
+            "http://localhost:3003"
+        ],
+        "cacheConfig": {
+            "maxAge": "5m",
+            "timeout": "5s",
+            "strategy": "freshness"
+        }
+    }]
+}
